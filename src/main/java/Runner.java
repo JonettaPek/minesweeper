@@ -144,7 +144,7 @@ public class Runner {
      * @return True if the input is a valid cell, otherwise false.
      */
     private static boolean isValidCell(String input, int size) {
-        if (input.length() != 2) {
+        if (input.length() < 2) {
             return false;
         }
         char rowChar = input.charAt(0);
