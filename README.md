@@ -79,7 +79,7 @@ classDiagram
         -char[][] board
         -boolean[][] mines
         -boolean[][] revealed
-        +Minesweeper(MinePlacer minePlacer, int size, int mineCount)exi
+        +Minesweeper(MinePlacer minePlacer, int size, int mineCount)
         -initializeBoard() void
         +uncoverCell(int row, int col) boolean
         -reveal(int row, int col, boolean isUserSelection) int
